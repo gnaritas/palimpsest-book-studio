@@ -28,7 +28,8 @@ svg.mark{width:46px;height:46px;flex:none}
 nav.main ul{list-style:none;display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px}
 nav.main a{font-family:var(--sans);font-size:14.5px;font-weight:600;color:var(--ink);text-decoration:none;padding:8px 2px;border-bottom:2px solid transparent}
 nav.main a:hover{border-bottom-color:var(--orange)}
-nav.main a.btn{border-bottom:none}
+nav.main a.btn{border-bottom:none;background:var(--ink);color:var(--paper)}
+nav.main a.btn:hover{background:var(--orange-deep);border-color:var(--orange-deep);color:#fff}
 
 .btn{display:inline-block;font-family:var(--sans);font-size:15px;font-weight:700;text-decoration:none;color:var(--paper);background:var(--ink);border:1.5px solid var(--ink);border-radius:999px;padding:12px 22px;transition:background .15s,color .15s}
 .btn:hover{background:var(--orange-deep);border-color:var(--orange-deep);color:#fff7ec}
@@ -54,7 +55,8 @@ section.hero{padding:74px 0 66px}
 section.minihero{padding:58px 0 44px}
 .hero .wrap{display:grid;grid-template-columns:1.22fr 1fr;gap:44px;align-items:center}
 .herotext{position:relative;z-index:2}
-.ghostlayer{position:absolute;z-index:1;top:-26px;left:-8px;right:0;font-size:clamp(3.6rem,11vw,8.2rem);line-height:1;letter-spacing:.04em;color:var(--ghost);opacity:.5;white-space:nowrap;font-weight:700;pointer-events:none;user-select:none;font-style:italic}
+.ghostlayer{position:absolute;z-index:1;top:34px;left:-8px;right:0;font-size:clamp(3.2rem,9vw,6.9rem);line-height:1;letter-spacing:.04em;color:var(--ghost);opacity:.55;white-space:nowrap;font-weight:700;pointer-events:none;user-select:none;font-style:italic}
+section.hero .herotext h1{margin-top:116px}
 .stubs{display:flex;flex-wrap:wrap;gap:8px 10px;margin:22px 0 0}
 .stub{font-family:var(--sans);font-size:13px;font-weight:600;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 14px;color:var(--ink)}
 .stub.alt{background:transparent;color:var(--ink-soft)}
@@ -83,7 +85,8 @@ svg.ic{width:44px;height:44px;display:block}
 
 /* quote band */
 section.quotband{background:var(--ink);color:var(--paper);padding:76px 0;position:relative;overflow-x:clip}
-section.quotband .ghostq{position:absolute;z-index:0;right:-40px;bottom:-34px;font-size:clamp(4rem,13vw,9.5rem);color:#37291a;font-style:italic;line-height:1;pointer-events:none;user-select:none;letter-spacing:.03em}
+section.quotband .ghostq{position:absolute;z-index:0;right:-40px;bottom:-58px;font-size:clamp(4rem,13vw,9.5rem);color:#37291a;font-style:italic;line-height:1;pointer-events:none;user-select:none;letter-spacing:.03em}
+section.quotband blockquote .qsrc{max-width:58ch}
 section.quotband blockquote{position:relative;z-index:1;font-size:clamp(1.5rem,3.4vw,2.35rem);line-height:1.35;font-style:italic;max-width:36ch}
 section.quotband .qsrc{color:var(--amber);opacity:.95}
 
@@ -107,7 +110,8 @@ p.mapnote{font-family:var(--sans);font-size:13px;color:var(--ink-soft);margin-to
 
 /* callband */
 section.callband{background:var(--orange);color:#fdf3e6;padding:60px 0;position:relative;overflow-x:clip}
-section.callband .ghostc{position:absolute;z-index:0;left:-30px;top:-30px;font-size:clamp(3.4rem,10vw,7rem);color:#b34a1c;font-style:italic;line-height:1;pointer-events:none;user-select:none}
+section.callband .ghostc{position:absolute;z-index:0;left:-30px;top:-16px;font-size:clamp(3.4rem,10vw,7rem);color:#b34a1c;font-style:italic;line-height:1;pointer-events:none;user-select:none}
+section.callband h2{margin-top:58px}
 section.callband .wrap{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
 section.callband h2{color:#fdf3e6;margin-bottom:6px}
 section.callband p{color:#f7d9bd;font-size:1.02rem;max-width:52ch}
@@ -158,7 +162,10 @@ p.footline a{color:#b09168;text-decoration:none}
   nav.main{width:100%}
   nav.main ul{gap:4px 18px}
   .fields{grid-template-columns:1fr}
-  .ghostlayer{top:-14px;font-size:clamp(2.8rem,13vw,4.4rem)}
+  .ghostlayer{top:26px;font-size:clamp(2.6rem,12vw,4rem)}
+  section.hero .herotext h1{margin-top:70px}
+  section.callband h2{margin-top:40px}
+  section.callband .ghostc{top:-8px}
   .strip{grid-template-columns:1fr}
   section.callband .wrap{flex-direction:column;align-items:flex-start}
   .brand .word{font-size:19px}
