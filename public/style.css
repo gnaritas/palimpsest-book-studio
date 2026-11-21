@@ -111,7 +111,7 @@ p.mapnote{font-family:var(--sans);font-size:13px;color:var(--ink-soft);margin-to
 
 /* callband */
 section.callband{background:var(--orange);color:#fdf3e6;padding:60px 0;position:relative;overflow-x:clip}
-section.callband .ghostword{position:absolute;z-index:0;left:-30px;top:4px;font-size:clamp(3.4rem,10vw,7rem);color:#b34a1c;font-style:italic;line-height:1;pointer-events:none;user-select:none}
+section.callband .ghostword{position:absolute;z-index:0;left:12px;top:4px;font-size:clamp(3.4rem,10vw,7rem);color:#b34a1c;font-style:italic;line-height:1;pointer-events:none;user-select:none}
 section.callband h2{margin-top:74px}
 section.callband .wrap{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
 section.callband h2{color:#fdf3e6;margin-bottom:6px}
