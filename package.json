@@ -1,0 +1,13 @@
+{
+  "name": "palimpsest-book-studio-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Palimpsest Book Studio — book studio for readers and writers in Ybor City, Tampa FL. Template v2 T1 (2026-11-21, t_f3c6dec9).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
