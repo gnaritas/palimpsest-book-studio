@@ -57,6 +57,7 @@ section.minihero{padding:58px 0 44px}
 .herotext{position:relative;z-index:2}
 .ghostlayer{position:absolute;z-index:1;top:34px;left:-8px;right:0;font-size:clamp(3.2rem,9vw,6.9rem);line-height:1;letter-spacing:.04em;color:var(--ghost);opacity:.55;white-space:nowrap;font-weight:700;pointer-events:none;user-select:none;font-style:italic}
 section.hero .herotext h1{margin-top:116px}
+section.minihero .wrap h1{margin-top:84px}
 .stubs{display:flex;flex-wrap:wrap;gap:8px 10px;margin:22px 0 0}
 .stub{font-family:var(--sans);font-size:13px;font-weight:600;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 14px;color:var(--ink)}
 .stub.alt{background:transparent;color:var(--ink-soft)}
@@ -110,8 +111,8 @@ p.mapnote{font-family:var(--sans);font-size:13px;color:var(--ink-soft);margin-to
 
 /* callband */
 section.callband{background:var(--orange);color:#fdf3e6;padding:60px 0;position:relative;overflow-x:clip}
-section.callband .ghostc{position:absolute;z-index:0;left:-30px;top:-16px;font-size:clamp(3.4rem,10vw,7rem);color:#b34a1c;font-style:italic;line-height:1;pointer-events:none;user-select:none}
-section.callband h2{margin-top:58px}
+section.callband .ghostc{position:absolute;z-index:0;left:-30px;top:4px;font-size:clamp(3.4rem,10vw,7rem);color:#b34a1c;font-style:italic;line-height:1;pointer-events:none;user-select:none}
+section.callband h2{margin-top:74px}
 section.callband .wrap{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
 section.callband h2{color:#fdf3e6;margin-bottom:6px}
 section.callband p{color:#f7d9bd;font-size:1.02rem;max-width:52ch}
@@ -164,8 +165,9 @@ p.footline a{color:#b09168;text-decoration:none}
   .fields{grid-template-columns:1fr}
   .ghostlayer{top:26px;font-size:clamp(2.6rem,12vw,4rem)}
   section.hero .herotext h1{margin-top:70px}
-  section.callband h2{margin-top:40px}
-  section.callband .ghostc{top:-8px}
+  section.minihero .wrap h1{margin-top:62px}
+  section.callband h2{margin-top:44px}
+  section.callband .ghostc{top:6px}
   .strip{grid-template-columns:1fr}
   section.callband .wrap{flex-direction:column;align-items:flex-start}
   .brand .word{font-size:19px}
