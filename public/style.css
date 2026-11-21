@@ -181,3 +181,10 @@ p.footline a{color:#b09168;text-decoration:none}
   .brand .word{font-size:19px}
   svg.mark{width:40px;height:40px}
 }
+
+/* desktop/tablet hero: ghost lowered 12px so its baseline clears the h1
+   cap line (measured 7.8px box-overlap at 1280); label side gains clearance,
+   nothing else on desktop touched; mobile keeps its own ghost rules above */
+@media (min-width:641px){
+  .hero .herotext .ghostlayer{top:-14px}
+}
